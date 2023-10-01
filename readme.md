@@ -73,11 +73,25 @@
   </details>
 
   <details>
-  <summary>Netrw</summary>
+  <summary>Neo-tree</summary>
 
   Key | Action
   --- | ---
-  `<leader>e`| open netrw
+  `<leader>e`| toggle neotree
+  `A`| add directory
+  `a`| add file or directory
+  `r`| rename file
+  `c`| copy file
+  `x`| cut file to clipboard
+  `m`| move file
+  `p`| paste from clipboard
+  `>`| go next source (filesystem | buffers | git status)
+  `gA`| git add all files
+  `ga`| git add file
+  `gu`| git unstaged file
+  `gc`| git commit
+  `gp`| git push
+  `?`| show shortcuts
 
   </details>
 
@@ -123,6 +137,7 @@ nvim
 │       ├── telescope.lua
 │       ├── lsp.lua
 │       ├── treesitter.lua
+│       ├── neotree.lua
 │       ├── colorscheme.lua
 │       └── fugitive.lua
 │
@@ -132,6 +147,7 @@ nvim
         ├── telescope.lua
         ├── lsp.lua
         ├── treesitter.lua
+        ├── neotree.lua
         ├── colorscheme.lua
         └── fugitive.lua
 ```

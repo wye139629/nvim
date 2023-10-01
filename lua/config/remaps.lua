@@ -1,4 +1,8 @@
-vim.keymap.set("n", '<leader>e', vim.cmd.Ex)
+
+-- File explore
+vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<CR>")
+
+-- Save file
 vim.keymap.set("n", '<leader>w', vim.cmd.w)
 
 -- Allow moving visual highlight line to move up and down
