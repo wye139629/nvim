@@ -1,4 +1,3 @@
-
 -- File explore
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<CR>")
 
@@ -42,3 +41,5 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- Git blame
+vim.keymap.set("n", "<leader>gb", "<cmd>Gitsigns toggle_current_line_blame<CR>")

@@ -28,6 +28,7 @@
   `<leader>rr` | trigger code action
   `<leader>rn` | trigger rename
   `FF` | format code 
+  `<leader>gb` | toggle current line git blame
 
   </details>
 
@@ -147,6 +148,7 @@ nvim
         ├── telescope.lua
         ├── lsp.lua
         ├── treesitter.lua
+        ├── gitsigns.lua
         ├── neotree.lua
         ├── colorscheme.lua
         └── fugitive.lua

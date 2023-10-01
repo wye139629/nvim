@@ -2,6 +2,7 @@
   "Comment.nvim": { "branch": "master", "commit": "d0cbbfb539898a275dc4398446ab0ae3b94819bf" },
   "LuaSnip": { "branch": "master", "commit": "e81cbe6004051c390721d8570a4a0541ceb0df10" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "44b16d11215dce86f253ce0c30949813c0a90765" },
+  "gitsigns.nvim": { "branch": "main", "commit": "e2ca739be75447fb5ccc9bfeb64f7afbc2cee5e6" },
   "harpoon": { "branch": "master", "commit": "21f4c47c6803d64ddb934a5b314dcb1b8e7365dc" },
   "lazy.nvim": { "branch": "main", "commit": "3ad55ae678876516156cca2f361c51f7952a924b" },
   "lsp-zero.nvim": { "branch": "v2.x", "commit": "73bc33fe9ad5a1d4501536fdd4755b3aa18c3392" },
@@ -17,6 +18,5 @@
   "nvim-web-devicons": { "branch": "master", "commit": "45d0237c427baba8cd05e0ab26d30e2ee58c2c82" },
   "plenary.nvim": { "branch": "master", "commit": "267282a9ce242bbb0c5dc31445b6d353bed978bb" },
   "rose-pine": { "branch": "main", "commit": "e29002cbee4854a9c8c4b148d8a52fae3176070f" },
-  "telescope.nvim": { "branch": "master", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" },
-  "vim-fugitive": { "branch": "master", "commit": "b3b838d690f315a503ec4af8c634bdff3b200aaf" }
+  "telescope.nvim": { "branch": "master", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" }
 }
